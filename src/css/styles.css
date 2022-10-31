@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%; }
+
+html,
+body {
+  height: 100%; }
+
+body {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0rem;
+  color: #172339; }
+
+main {
+  min-height: 100%;
+  display: grid;
+  align-content: center;
+  justify-content: center; }
+
+.heading-xl {
+  font-size: 4.5rem;
+  line-height: 4.9rem;
+  letter-spacing: 0.063rem; }
+
+.heading-xl-bold {
+  font-weight: 700; }
+
+.heading-xl-regular {
+  font-weight: 400; }
+
+.heading-l {
+  font-weight: 3rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.031rem; }
+
+.heading-l-bold {
+  font-weight: 700; }
+
+.heading-l-regular {
+  font-weight: 400; }
+
+.heading-m-bold {
+  font-weight: 1.13rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 2rem;
+  letter-spacing: 0.013rem; }
+
+.heading-s-regular {
+  font-weight: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.63rem;
+  letter-spacing: 0.156rem; }
+
+.quote-regular {
+  font-weight: 1.3rem;
+  font-weight: 400;
+  line-height: 2.19rem;
+  letter-spacing: 0rem; }
+
+.default-text-regular {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0rem;
+  color: #172339; }
+
+.x-small-text-regular {
+  font-weight: 0.938rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0rem; }
+
+.btn {
+  font-family: "Epilogue", sans-serif;
+  line-height: 2.5rem;
+  border-radius: 0.3rem;
+  outline: none;
+  transition: background-color 200ms; }
+  .btn-primary-default {
+    padding: 0.875rem 1.938rem;
+    font-size: 1.13rem;
+    line-height: 2rem;
+    color: #faf8f6;
+    border: none;
+    background-color: #172339; }
+    .btn-primary-default:hover {
+      background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%); }
+  .btn-secondary-default {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    border: solid #172339;
+    color: #172339;
+    background-color: transparent; }
+    .btn-secondary-default:hover {
+      color: #faf8f6;
+      background-color: #172339; }

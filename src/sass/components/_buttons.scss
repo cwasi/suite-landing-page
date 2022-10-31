@@ -1,0 +1,39 @@
+.btn {
+  font-family: "Epilogue", sans-serif;
+  line-height: 2.5rem;
+  border-radius: 0.3rem;
+  outline: none;
+  transition: background-color 200ms;
+
+  &-primary-default {
+    padding: 0.875rem 1.938rem;
+    font-size: 1.13rem;
+    line-height: 2rem;
+    color: $color-cream-white;
+    border: none;
+    background-color: $color-dark-blue;
+
+    &:hover {
+      background: linear-gradient(
+        135deg,
+        $primary-color 0%,
+        $secondary-color 49.21%,
+        $tertiary-color 100%
+      );
+    }
+  }
+
+  &-secondary-default {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    border: solid $color-dark-blue;
+    color: $color-dark-blue;
+    background-color: transparent;
+
+    &:hover {
+      color: $color-cream-white;
+      background-color: $color-dark-blue;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.heading {
+  &-xl {
+    font-size: 4.5rem;
+    line-height: 4.9rem;
+    letter-spacing: 0.063rem;
+  }
+
+  &-xl-bold {
+    font-weight: 700;
+  }
+
+  &-xl-regular {
+    font-weight: 400;
+  }
+
+  &-l {
+    font-weight: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.031rem;
+  }
+
+  &-l-bold {
+    font-weight: 700;
+  }
+
+  &-l-regular {
+    font-weight: 400;
+  }
+
+  &-m-bold {
+    font-weight: 1.13rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 2rem;
+    letter-spacing: 0.013rem;
+  }
+
+  &-s-regular {
+    font-weight: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.63rem;
+    letter-spacing: 0.156rem;
+  }
+}
+
+.quote-regular {
+  font-weight: 1.3rem;
+  font-weight: 400;
+  line-height: 2.19rem;
+  letter-spacing: 0rem;
+}
+
+.default-text-regular {
+@include body-typography
+}
+
+.x-small-text-regular {
+  font-weight: 0.938rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0rem;
+}
