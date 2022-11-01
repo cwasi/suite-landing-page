@@ -1,0 +1,17 @@
+.curved-line {
+  position: absolute;
+  top: 8%;
+  left: 28%;
+
+  z-index: 5;
+
+  &-box {
+    width: 17.94rem;
+    height: 2rem;
+  }
+
+  &-icon {
+    height: 100%;
+    width: 100%;
+  }
+}

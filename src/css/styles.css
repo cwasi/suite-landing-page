@@ -115,9 +115,59 @@ main {
   height: 100%;
   object-fit: cover; }
 
+.curved-line {
+  position: absolute;
+  top: 8%;
+  left: 28%;
+  z-index: 5; }
+  .curved-line-box {
+    width: 17.94rem;
+    height: 2rem; }
+  .curved-line-icon {
+    height: 100%;
+    width: 100%; }
+
+.mockup {
+  position: absolute;
+  top: 0;
+  left: 45%;
+  height: 100%; }
+  .mockup-box {
+    width: 21.9rem;
+    height: 100%; }
+  .mockup__img {
+    height: 100%;
+    object-fit: cover; }
+
 .header {
   width: 69.3rem;
   margin: 3.13rem auto 4.2rem auto;
   display: flex;
   align-items: center;
   justify-content: space-between; }
+
+.hero {
+  height: 37.5rem;
+  width: 69.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative; }
+  .hero__info-box {
+    height: 25.31rem;
+    width: 41.5rem;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between; }
+  .hero__paragraph-box {
+    width: 20rem; }
+
+.ratings {
+  height: 25.31rem; }
+  .ratings-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }

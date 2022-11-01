@@ -1,0 +1,10 @@
+.ratings {
+  height: 25.31rem;
+
+  &-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
