@@ -107,3 +107,17 @@ main {
     .btn-secondary-default:hover {
       color: #faf8f6;
       background-color: #172339; }
+
+.logo-box {
+  height: 1.6rem; }
+
+.logo__icon {
+  height: 100%;
+  object-fit: cover; }
+
+.header {
+  width: 69.3rem;
+  margin: 3.13rem auto 4.2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
