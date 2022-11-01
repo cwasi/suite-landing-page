@@ -165,7 +165,8 @@ main {
     width: 20rem; }
 
 .ratings {
-  height: 25.31rem; }
+  height: 25.31rem;
+  width: 11.9rem; }
   .ratings-box {
     height: 100%;
     display: flex;
