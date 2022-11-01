@@ -83,6 +83,7 @@ main {
 
 .btn {
   font-family: "Epilogue", sans-serif;
+  font-weight: 700;
   line-height: 2.5rem;
   border-radius: 0.3rem;
   outline: none;
@@ -100,7 +101,7 @@ main {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     line-height: 2rem;
-    border: solid #172339;
+    border: 0.1rem solid #172339;
     color: #172339;
     background-color: transparent; }
     .btn-secondary-default:hover {
