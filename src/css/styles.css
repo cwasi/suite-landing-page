@@ -30,23 +30,19 @@ main {
   font-size: 4.5rem;
   line-height: 4.9rem;
   letter-spacing: 0.063rem; }
-
-.heading-xl-bold {
-  font-weight: 700; }
-
-.heading-xl-regular {
-  font-weight: 400; }
+  .heading-xl-bold {
+    font-weight: 700; }
+  .heading-xl-regular {
+    font-weight: 400; }
 
 .heading-l {
   font-size: 3rem;
   line-height: 3.5rem;
   letter-spacing: 0.031rem; }
-
-.heading-l-bold {
-  font-weight: 700; }
-
-.heading-l-regular {
-  font-weight: 400; }
+  .heading-l-bold {
+    font-weight: 700; }
+  .heading-l-regular {
+    font-weight: 400; }
 
 .heading-m-bold {
   font-size: 1.13rem;
@@ -67,6 +63,8 @@ main {
   font-weight: 400;
   line-height: 2.19rem;
   letter-spacing: 0rem; }
+  .quote-regular__cream-white {
+    color: #faf8f6; }
 
 .default-text-regular {
   font-family: "Epilogue", sans-serif;
@@ -80,6 +78,9 @@ main {
   font-weight: 400;
   line-height: 2rem;
   letter-spacing: 0rem; }
+
+.cream-white {
+  color: #faf8f6; }
 
 .btn {
   font-family: "Epilogue", sans-serif;

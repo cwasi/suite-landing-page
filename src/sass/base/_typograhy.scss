@@ -3,28 +3,27 @@
     font-size: 4.5rem;
     line-height: 4.9rem;
     letter-spacing: 0.063rem;
-  }
+    &-bold {
+      font-weight: 700;
+    }
 
-  &-xl-bold {
-    font-weight: 700;
-  }
-
-  &-xl-regular {
-    font-weight: 400;
+    &-regular {
+      font-weight: 400;
+    }
   }
 
   &-l {
     font-size: 3rem;
     line-height: 3.5rem;
     letter-spacing: 0.031rem;
-  }
 
-  &-l-bold {
-    font-weight: 700;
-  }
+    &-bold {
+      font-weight: 700;
+    }
 
-  &-l-regular {
-    font-weight: 400;
+    &-regular {
+      font-weight: 400;
+    }
   }
 
   &-m-bold {
@@ -49,6 +48,9 @@
   font-weight: 400;
   line-height: 2.19rem;
   letter-spacing: 0rem;
+  &__cream-white {
+    color: $color-cream-white;
+  }
 }
 
 .default-text-regular {
@@ -60,4 +62,8 @@
   font-weight: 400;
   line-height: 2rem;
   letter-spacing: 0rem;
+}
+
+.cream-white {
+  color: $color-cream-white;
 }
