@@ -175,6 +175,17 @@ main {
     flex-direction: column;
     justify-content: space-between; }
 
+.facebook__icon-box,
+.twitter__icon-box,
+.instagram__icon-box {
+  width: 1.25rem;
+  height: 1.25rem; }
+
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; }
+
 .header {
   width: 69.3rem;
   margin: 3.13rem auto 4.2rem auto;
@@ -207,4 +218,22 @@ main {
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between; }
+
+.footer {
+  margin-top: -19rem;
+  height: 29rem;
+  background-color: #f3ede7;
+  display: flex;
+  align-items: end; }
+  .footer-box {
+    margin: 0 auto 4.5rem auto;
+    width: 69.313rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .footer__social-links {
+    width: 7.25rem;
+    display: flex;
+    align-items: center;
     justify-content: space-between; }
