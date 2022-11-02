@@ -1,0 +1,37 @@
+.card {
+  width: 69.313rem;
+  height: 34.063rem;
+  padding: 0 7.813rem;
+  border-radius: 0.94rem;
+  background-color: $color-dark-blue;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__img-box {
+    width: 23.44rem;
+
+    position: relative;
+    top: -1rem;
+
+    background-image: url(/src/assets/pattern-blur.svg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: -2rem 15rem;
+  }
+
+  &__img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__info {
+    width: 21.9rem;
+    height: 23.1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

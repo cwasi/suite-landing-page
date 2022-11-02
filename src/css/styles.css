@@ -127,6 +127,13 @@ main {
     height: 100%;
     width: 100%; }
 
+.curved-lind-s {
+  position: relative;
+  top: -5rem; }
+  .curved-lind-s-box {
+    width: 4rem;
+    height: 3.25rem; }
+
 .mockup {
   position: absolute;
   top: 0;
@@ -138,6 +145,33 @@ main {
   .mockup__img {
     height: 100%;
     object-fit: cover; }
+
+.card {
+  width: 69.313rem;
+  height: 34.063rem;
+  padding: 0 7.813rem;
+  border-radius: 0.94rem;
+  background-color: #172339;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .card__img-box {
+    width: 23.44rem;
+    position: relative;
+    top: -1rem;
+    background-image: url(/src/assets/pattern-blur.svg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: -2rem 15rem; }
+  .card__img {
+    height: 100%;
+    object-fit: cover; }
+  .card__info {
+    width: 21.9rem;
+    height: 23.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
 
 .header {
   width: 69.3rem;
