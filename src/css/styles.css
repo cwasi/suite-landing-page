@@ -158,14 +158,15 @@ main {
   justify-content: space-between; }
   .card__img-box {
     width: 23.44rem;
+    height: 36.85rem;
     position: relative;
-    top: -1rem;
+    top: -2.87rem;
     background-image: url(/src/assets/pattern-blur.svg);
     background-repeat: no-repeat;
     background-size: 110%;
     background-position: -2rem 15rem; }
   .card__img {
-    height: 100%;
+    width: 100%;
     object-fit: cover; }
   .card__info {
     width: 21.9rem;
