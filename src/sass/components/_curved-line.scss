@@ -5,9 +5,16 @@
 
   z-index: 5;
 
+  @media only screen and (max-width: 70.7em) {
+    left: 36.5%;
+  }
+
   &-box {
     width: 17.94rem;
     height: 2rem;
+    @media only screen and (max-width: 70.7em) {
+      width: 14.94rem;
+    }
   }
 
   &-icon {

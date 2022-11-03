@@ -36,6 +36,10 @@ main {
   font-size: 4.5rem;
   line-height: 4.9rem;
   letter-spacing: 0.063rem; }
+  @media only screen and (max-width: 70.7em) {
+    .heading-xl {
+      font-size: 3.5rem;
+      line-height: 4rem; } }
   .heading-xl-bold {
     font-weight: 700; }
   .heading-xl-regular {
@@ -128,9 +132,15 @@ main {
   top: 8%;
   left: 28%;
   z-index: 5; }
+  @media only screen and (max-width: 70.7em) {
+    .curved-line {
+      left: 36.5%; } }
   .curved-line-box {
     width: 17.94rem;
     height: 2rem; }
+    @media only screen and (max-width: 70.7em) {
+      .curved-line-box {
+        width: 14.94rem; } }
   .curved-line-icon {
     height: 100%;
     width: 100%; }
@@ -147,9 +157,16 @@ main {
   top: 0;
   left: 45%;
   height: 100%; }
+  @media only screen and (max-width: 70.7em) {
+    .mockup {
+      left: 59.2%; } }
   .mockup-box {
     width: 21.9rem;
     height: 100%; }
+    @media only screen and (max-width: 70.7em) {
+      .mockup-box {
+        width: 17.56rem;
+        height: 30.13rem; } }
   .mockup__img {
     height: 100%;
     object-fit: cover; }
@@ -207,6 +224,11 @@ main {
   align-items: center;
   justify-content: space-between;
   position: relative; }
+  @media only screen and (max-width: 70.7em) {
+    .hero {
+      height: 40.813rem;
+      width: 43.063rem;
+      flex-direction: column; } }
   .hero__info-box {
     height: 25.31rem;
     width: 41.5rem;
@@ -215,17 +237,35 @@ main {
     flex-direction: column;
     align-items: start;
     justify-content: space-between; }
+    @media only screen and (max-width: 70.7em) {
+      .hero__info-box {
+        margin: 6rem 0 0rem 0;
+        height: 22.125rem; } }
+  @media only screen and (max-width: 70.7em) {
+    .hero__title {
+      width: 35.813rem; } }
   .hero__paragraph-box {
     width: 21.9rem; }
 
 .ratings {
   height: 25.31rem;
   width: 11.9rem; }
+  @media only screen and (max-width: 70.7em) {
+    .ratings {
+      height: 5.188rem;
+      width: 100%; } }
+  @media only screen and (max-width: 70.7em) {
+    .ratings-item {
+      text-align: center; } }
   .ratings-box {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
+    @media only screen and (max-width: 70.7em) {
+      .ratings-box {
+        flex-direction: row;
+        justify-content: space-around; } }
 
 .footer {
   margin-top: -19rem;

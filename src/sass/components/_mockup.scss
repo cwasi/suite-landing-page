@@ -1,16 +1,25 @@
 .mockup {
-    position: absolute;
-    top: 0;
-    left: 45%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 45%;
+  height: 100%;
+  @media only screen and (max-width: 70.7em) {
     
-    &-box {
-      width: 21.9rem;
-      height: 100%;
-    }
-  
-    &__img {
-      height: 100%;
-      object-fit: cover;
+    left:59.2%;
+    // right: 50%;
+  }
+
+  &-box {
+    width: 21.9rem;
+    height: 100%;
+    @media only screen and (max-width: 70.7em) {
+      width: 17.56rem;
+      height: 30.13rem;
     }
   }
+
+  &__img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
