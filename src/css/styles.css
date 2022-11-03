@@ -19,6 +19,7 @@ body {
 
 body {
   font-family: "Epilogue", sans-serif;
+  font-size: 1.13rem;
   font-weight: 400;
   line-height: 2rem;
   letter-spacing: 0rem;
@@ -73,6 +74,7 @@ main {
 
 .default-text-regular {
   font-family: "Epilogue", sans-serif;
+  font-size: 1.13rem;
   font-weight: 400;
   line-height: 2rem;
   letter-spacing: 0rem;
@@ -214,7 +216,7 @@ main {
     align-items: start;
     justify-content: space-between; }
   .hero__paragraph-box {
-    width: 20rem; }
+    width: 21.9rem; }
 
 .ratings {
   height: 25.31rem;
