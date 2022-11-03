@@ -23,6 +23,11 @@
     line-height: 3.5rem;
     letter-spacing: 0.031rem;
 
+    @media only screen and (max-width: 70.7em) {
+      font-size: 2.5rem;
+      line-height: 3rem;
+    }
+
     &-bold {
       font-weight: 700;
     }
@@ -54,6 +59,9 @@
   font-weight: 400;
   line-height: 2.19rem;
   letter-spacing: 0rem;
+  @media only screen and (max-width: 70.7em) {
+    font-size: 1.13rem;
+  }
   &__cream-white {
     color: $color-cream-white;
   }
