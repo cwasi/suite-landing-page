@@ -5,4 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media only screen and (max-width: 70.7em) {
+    width: 43.063rem;
+  }
 }

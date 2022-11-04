@@ -249,6 +249,9 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between; }
+  @media only screen and (max-width: 70.7em) {
+    .header {
+      width: 43.063rem; } }
 
 .hero {
   height: 37.5rem;
@@ -312,6 +315,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between; }
+    @media only screen and (max-width: 70.7em) {
+      .footer-box {
+        width: 43.063rem; } }
   .footer__social-links {
     width: 7.25rem;
     display: flex;
