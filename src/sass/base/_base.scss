@@ -31,4 +31,7 @@ main {
   align-content: center;
   justify-content: center;
   gap: 9.65rem;
+  @media only screen and (max-width: 70.7em) {
+    gap: 15.4rem;
+  }
 }

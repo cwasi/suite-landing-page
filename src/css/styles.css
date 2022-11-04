@@ -30,6 +30,9 @@ main {
   align-content: center;
   justify-content: center;
   gap: 9.65rem; }
+  @media only screen and (max-width: 70.7em) {
+    main {
+      gap: 15.4rem; } }
 
 .heading-xl {
   font-size: 4.5rem;
