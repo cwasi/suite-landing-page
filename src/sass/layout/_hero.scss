@@ -10,10 +10,11 @@
 
   @media only screen and (max-width: 70.7em) {
     height: 40.813rem;
-
     width: 43.063rem;
-
     flex-direction: column;
+  }
+  @media only screen and (max-width: 39.4em) {
+    height: 61.895rem;
   }
 
   &__info-box {
@@ -30,10 +31,18 @@
       margin: 6rem 0 0rem 0;
       height: 22.125rem;
     }
+    @media only screen and (max-width: 39.4em) {
+      margin-top: 2rem;
+      width: max-content;
+      height: 20.3rem;
+    }
   }
   &__title {
     @media only screen and (max-width: 70.7em) {
       width: 35.813rem;
+    }
+    @media only screen and (max-width: 39.4em) {
+      width: 23rem;
     }
   }
   &__paragraph-box {

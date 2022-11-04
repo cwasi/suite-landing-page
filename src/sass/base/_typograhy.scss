@@ -8,6 +8,11 @@
       font-size: 3.5rem;
       line-height: 4rem;
     }
+    
+    @media only screen and (max-width: 39.4em) {
+      font-size:2.38rem;
+      line-height: 3rem;
+    }
 
     &-bold {
       font-weight: 700;
