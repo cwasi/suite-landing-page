@@ -1,11 +1,15 @@
 .header {
   width: 69.3rem;
   margin: 3.13rem auto 4.2rem auto;
-  
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   @media only screen and (max-width: 70.7em) {
     width: 43.063rem;
+  }
+  @media only screen and (max-width: 39.4em) {
+    width: 100%;
+    padding: 0 2rem;
   }
 }

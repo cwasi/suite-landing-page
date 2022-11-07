@@ -13,7 +13,9 @@
     width: 43.063rem;
     flex-direction: column;
   }
+  
   @media only screen and (max-width: 39.4em) {
+    width: 100%;
     height: 61.895rem;
   }
 
