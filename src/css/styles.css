@@ -14,6 +14,9 @@ html {
   @media only screen and (max-width: 43.8rem) {
     html {
       font-size: 85%; } }
+  @media only screen and (max-width: 22.81em) {
+    html {
+      font-size: 75%; } }
 
 html,
 body {
@@ -229,6 +232,9 @@ main {
     .card {
       width: 100%;
       height: 46.75rem; } }
+  @media only screen and (max-width: 22.81em) {
+    .card {
+      padding: 2rem; } }
   .card__img-box {
     width: 22.44rem;
     height: 36.85rem;
@@ -264,6 +270,12 @@ main {
     @media only screen and (max-width: 39.4em) {
       .card__info {
         height: 21rem; } }
+    @media only screen and (max-width: 22.81em) {
+      .card__info {
+        height: 100%; } }
+  @media only screen and (max-width: 22.81em) {
+    .card__title, .card__paragraph, .card__profile {
+      margin-bottom: 1.5rem; } }
 
 .facebook__icon-box,
 .twitter__icon-box,
