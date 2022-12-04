@@ -9,4 +9,8 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+  fill: $color-dark-blue;
+  &:hover {
+    fill: $color-gray;
+  }
 }
