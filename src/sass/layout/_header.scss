@@ -6,7 +6,9 @@
   align-items: center;
   justify-content: space-between;
   @media only screen and (max-width: 70.7em) {
+    padding: 0 2.5rem;
     width: 43.063rem;
+    width: 100%;
   }
   @media only screen and (max-width: 39.4em) {
     width: 100%;

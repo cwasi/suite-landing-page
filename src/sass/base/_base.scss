@@ -38,6 +38,10 @@ main {
   justify-content: center;
   gap: 9.65rem;
   @media only screen and (max-width: 70.7em) {
+    margin: 0 2.5rem;
     gap: 15.4rem;
+  }
+  @media only screen and (max-width: 39.4em) {
+    margin: 0 1.5rem;
   }
 }

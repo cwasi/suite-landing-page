@@ -10,7 +10,7 @@
   justify-content: space-between;
 
   @media only screen and (max-width: 70.7em) {
-    width: 43.063rem;
+    width: 100%;
     height: 42.75rem;
 
     padding: 0 3.63rem 4rem 3.63rem;
@@ -19,7 +19,8 @@
 
   @media only screen and (max-width: 39.4em) {
     width: 100%;
-    height: 46.75rem;
+    height: max-content;
+    gap: 2.5rem;
   }
 
   @media only screen and (max-width: 22.81em) {

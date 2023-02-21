@@ -1,21 +1,10 @@
 .curved-line {
-  position: absolute;
-  top: 8%;
-  left: 28%;
-
-  z-index: 5;
-
-  @media only screen and (max-width: 70.7em) {
-    left: 36.5%;
-  }
-  @media only screen and (max-width: 39.4em) {
-    top: 0;
-    left: 46%;
-  }
-
   &-box {
-    width: 17.94rem;
-    height: 2rem;
+    // width: 17.94rem;
+    margin-bottom: 1.02rem;
+
+    height: max-content;
+    z-index: 5;
     @media only screen and (max-width: 70.7em) {
       width: 14.94rem;
     }
@@ -28,6 +17,7 @@
   &-icon {
     height: 100%;
     width: 100%;
+    display: flex;
   }
 }
 
@@ -46,4 +36,8 @@
       width: 3rem;
     }
   }
+}
+
+.solution {
+  display: inline-block;
 }
